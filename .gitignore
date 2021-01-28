@@ -2,4 +2,3 @@ lib/
 node_modules/
 tailwindcss-config.js
 package-lock.json
-public/
