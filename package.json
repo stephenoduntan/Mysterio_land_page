@@ -1,0 +1,21 @@
+{
+  "name": "mysterio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwind build src/style.css -o public/build.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
